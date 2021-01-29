@@ -8,21 +8,29 @@ class MyLog extends LogAbstract implements LogInterface
     {
         $this->log[] = $str;
     }
-    public static function log($str)
+    public static function log($str):void
     {
         self::Instance()->__log($str);
     }
 
-    public static function write()
+    public static function write():void
     {
         MyLog::Instance()->_write();
     }
 
     public function _write()
     {
-        for($i=0;$i<sizeof($this->log);$i++){
-            echo $this->log[$i]."\n";
+        $log = '';        
+        foreach($this->log as $el){
+            $log .= $el."\n";
         }
+        echo $log;
+        $d = new \DateTime();
+        $file = "./Log/". $d->format('d-m-Y\TH_i_s.u').".log";
+        if (!is_dir('./Log/')) {
+            mkdir("./Log/");
+        }
+        file_put_contents($file,$log);
     }
 }
 
