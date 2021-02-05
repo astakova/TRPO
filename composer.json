@@ -20,6 +20,6 @@
     "minimum-stability": "dev",
     "require": {
         "rok9ru/trpo-core":"^2.0",
-        "efmova/efimova":"^1.1"
+        "astakova/shestakova":"^1.0"
     }
 }
