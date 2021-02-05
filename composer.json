@@ -1,0 +1,25 @@
+{
+    "name": "astakova/trpo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "astakova",
+            "email": "shesna2000@mail.com"
+        }
+    ],
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/rok9ru/trpo-core.git"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/astakova/astakova.git"
+    }
+],
+    "minimum-stability": "dev",
+    "require": {
+        "rok9ru/trpo-core":"^2.0",
+        "efmova/efimova":"^1.1"
+    }
+}
