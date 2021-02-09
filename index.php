@@ -1,7 +1,7 @@
 <?php
-use shesna\ShesnaException;
-use shesna\Sqrt;
-use shesna\MyLog;
+use shestakova\ShesnaException;
+use shestakova\Sqrt;
+use shestakova\MyLog;
 
 require __DIR__ . '/vendor/autoload.php';
 

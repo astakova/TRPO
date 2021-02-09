@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "37eb169e61212851201e6e5eebdeeffa",
+    "content-hash": "ef4452ec6a1feb8bfcc94cafa0fff8b0",
     "packages": [
         {
             "name": "astakova/shestakova",
-            "version": "1.1",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/astakova/shestakova.git",
-                "reference": "19eb7ab21228a3fc758eeda1dd8ad315c4228bd0"
+                "reference": "3a9bb2bff851977ff3f791066a301fe4a6e28b91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/astakova/shestakova/zipball/19eb7ab21228a3fc758eeda1dd8ad315c4228bd0",
-                "reference": "19eb7ab21228a3fc758eeda1dd8ad315c4228bd0",
+                "url": "https://api.github.com/repos/astakova/shestakova/zipball/3a9bb2bff851977ff3f791066a301fe4a6e28b91",
+                "reference": "3a9bb2bff851977ff3f791066a301fe4a6e28b91",
                 "shasum": ""
             },
             "type": "library",
@@ -36,7 +36,7 @@
                 "source": "https://github.com/astakova/shestakova/tree/1.0",
                 "issues": "https://github.com/astakova/shestakova/issues"
             },
-            "time": "2021-01-29T13:16:31+00:00"
+            "time": "2021-02-05T09:41:09+00:00"
         },
         {
             "name": "rok9ru/trpo-core",
